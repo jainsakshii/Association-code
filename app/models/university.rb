@@ -4,4 +4,6 @@ class University < ApplicationRecord
   has_many :big_
   has_one :choclate
   has_one :kiddd
+  love :animals
+  check :credentials
 end
